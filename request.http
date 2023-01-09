@@ -1,0 +1,69 @@
+
+GET http://localhost:5000/api/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmVjMmQ3NWJlYjNmOTAxNDRkMmUwM2MiLCJpYXQiOjE2NTk5ODI0NDh9.biQZnZGprS1CPUijpvnIO0ZTEo2Izp-WymQiYUB5qY0
+
+
+
+
+###
+GET http://localhost:5000/api/auth
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmVjMmQ3NWJlYjNmOTAxNDRkMmUwM2MiLCJpYXQiOjE2NTk5ODI0NDh9.biQZnZGprS1CPUijpvnIO0ZTEo2Izp-WymQiYUB5qY0
+
+
+
+
+###
+
+GET http://localhost:5000/api/posts/user
+
+
+###
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "quang",
+    "password": "123"
+}
+###
+
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "quang",
+    "password": "123"
+}
+
+###
+POST http://localhost:5000/api/posts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmVjMmQ3NWJlYjNmOTAxNDRkMmUwM2MiLCJpYXQiOjE2NTk5ODI0NDh9.biQZnZGprS1CPUijpvnIO0ZTEo2Izp-WymQiYUB5qY0
+
+{
+    "title": "noi dung phan title",
+    "description": "phan description",
+    "url": "https://",
+    "status": "TO LEARN"
+}
+
+###
+GET http://localhost:5000/api/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmVjMmQ3NWJlYjNmOTAxNDRkMmUwM2MiLCJpYXQiOjE2NTk5ODI0NDh9.biQZnZGprS1CPUijpvnIO0ZTEo2Izp-WymQiYUB5qY0
+
+###
+PUT http://localhost:5000/api/posts/630bd0a850d12b22d96ae3c8
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmVjMmQ3NWJlYjNmOTAxNDRkMmUwM2MiLCJpYXQiOjE2NTk5ODI0NDh9.biQZnZGprS1CPUijpvnIO0ZTEo2Izp-WymQiYUB5qY0
+
+{
+    "title": "NOI DUNG DA CHINH SUA",
+    "description": "phan description DA CHINH SUA",
+    "url": "https:// DA CHINH SUA",
+    "status": "TO LEARN"
+}
+
+###
+DELETE  http://localhost:5000/api/posts/630bd0a850d12b22d96ae3c8
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmVjMmQ3NWJlYjNmOTAxNDRkMmUwM2MiLCJpYXQiOjE2NTk5ODI0NDh9.biQZnZGprS1CPUijpvnIO0ZTEo2Izp-WymQiYUB5qY0
+
