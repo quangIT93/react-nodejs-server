@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const { MongoClient, ServerApiVersion } = require('mongoDB');
+const { MongoClient, ServerApiVersion } = require('mongodb');
 mongoose.set('strictQuery', false);
 async function connectDB() {
     try {
