@@ -6,7 +6,13 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmVjM
 
 
 ###
-GET http://localhost:5000/api/auth
+GET https://react-nodejs-server.vercel.app/api/auth
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmVjMmQ3NWJlYjNmOTAxNDRkMmUwM2MiLCJpYXQiOjE2NTk5ODI0NDh9.biQZnZGprS1CPUijpvnIO0ZTEo2Izp-WymQiYUB5qY0
+
+
+
+###
+GET https://react-nodejs-server.vercel.app/api/posts
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmVjMmQ3NWJlYjNmOTAxNDRkMmUwM2MiLCJpYXQiOjE2NTk5ODI0NDh9.biQZnZGprS1CPUijpvnIO0ZTEo2Izp-WymQiYUB5qY0
 
 
